@@ -33,7 +33,7 @@ This folder contains scripts and resources for a Retrieval-Augmented Generation 
 - **Ollama Embeddings**: [LangChain Ollama Embeddings Documentation](https://python.langchain.com/docs/integrations/text_embedding/ollama/)
 - **LiteLLM**: [LiteLLM Documentation](https://docs.litellm.ai/docs/)
 - **Qdrant Vector Store**: [LangChain Qdrant Integration](https://python.langchain.com/docs/integrations/vectorstores/)
-
+- **Data**: [sample pdf](https://bitcoin.org/bitcoin.pdf)
 ## Usage
 
 ### 1. Ingest a PDF into Qdrant
