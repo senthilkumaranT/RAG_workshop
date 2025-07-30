@@ -12,14 +12,27 @@ This folder contains scripts and resources for a Retrieval-Augmented Generation 
 ## Setup
 
 1. **Dependencies**: Install required Python packages:
-   - `langchain_ollama`
-   - `langchain_qdrant`
-   - `langchain_community`
-   - `litellm`
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+   Or install individually:
+   - `langchain_ollama` - Ollama integration for LangChain
+   - `langchain_qdrant` - Qdrant vector store integration
+   - `langchain_community` - Community integrations including PyPDFLoader
+   - `litellm` - Unified LLM API for model management
+   - `pypdf` - PDF processing library
 
 2. **Ollama LLM**: Ensure Ollama is running locally and accessible at `http://localhost:11434`.
 
 3. **Qdrant**: The scripts are configured to use a remote Qdrant instance. Update the `url` and `api_key` in the scripts if needed.
+
+## Documentation Links
+
+- **PyPDFLoader**: [LangChain PyPDFLoader Documentation](https://python.langchain.com/docs/integrations/document_loaders/pypdfloader/)
+- **Ollama Embeddings**: [LangChain Ollama Embeddings Documentation](https://python.langchain.com/docs/integrations/text_embedding/ollama/)
+- **LiteLLM**: [LiteLLM Documentation](https://docs.litellm.ai/docs/)
+- **Qdrant Vector Store**: [LangChain Qdrant Integration](https://python.langchain.com/docs/integrations/vectorstores/)
 
 ## Usage
 
